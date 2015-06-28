@@ -24,8 +24,8 @@ function bp_add_custom_state_list() {
 		if ( $state_list_id ) {
  
 			$states = array(
-			"Alabama",			
-    		"Alaska",
+	    "Alabama",			
+    	    "Alaska",
             "Arizona",
             "Arkansas",
             "California",
