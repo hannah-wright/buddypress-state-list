@@ -1,6 +1,6 @@
 /*
 This will add a BuddyPress profile field with a drop-down list of US states.
-Add to bp-custom.php, then head on over to /wp-admin/users.php?page=bp-profile-setup. Enjoy!
+Add to bp-custom.php or functions, then head on over to /wp-admin/users.php?page=bp-profile-setup. Enjoy!
 */
  
 function bp_add_custom_state_list() {
@@ -23,7 +23,7 @@ function bp_add_custom_state_list() {
  
 		if ( $state_list_id ) {
  
-			$states = array(
+        $states = array(
 	    "Alabama",			
     	    "Alaska",
             "Arizona",
